@@ -1,0 +1,130 @@
+/* Atur body dan wrapper */
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f2ff00; /* Latar belakang kuning terang */
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container untuk form login */
+.login-container {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar container */
+    border: 1px solid #ccc; /* Border di sekitar container */
+    border-radius: 20px; /* Sudut melengkung */
+    overflow: hidden; /* Menghindari konten keluar dari sudut melengkung */
+    background-color: #ffffff; /* Warna latar belakang putih */
+}
+
+/* Gambar dalam container */
+.login-image img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover; /* Menjaga proporsi gambar */
+    border-left: 1px solid #ccc; /* Border di antara gambar dan form */
+}
+
+/* Container form */
+.form-container {
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Gaya judul */
+h2.text-center {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Gaya input */
+input[type="text"], input[type="password"] {
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px; /* Margin bawah untuk memberi ruang antara input */
+}
+
+/* Form group margin */
+.form-container .form-group {
+    margin-bottom: -10px; /* Margin tambahan untuk ruang antara input */
+}
+
+/* Tombol Login */
+.btn-primary {
+    background-color: #ffdd00; /* Kuning terang */
+    border-color: #e6c300; /* Border kuning lebih gelap */
+    color: #ffffff; /* Warna teks putih */
+    margin-top: 30px; /* Jarak antara field password dan tombol login */
+    margin-bottom: 10px; /* Mengurangi jarak antara tombol login dan register */
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transisi halus saat hover */
+}
+
+/* Efek hover untuk tombol Login */
+.btn-primary:hover {
+    background-color: #a38d00; /* Warna lebih gelap saat di-hover */
+    border-color: #e6b400;
+}
+
+/* Efek aktif dan fokus untuk tombol Login */
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #e6c300; /* Warna lebih gelap saat diklik atau fokus */
+    border-color: #b39600; /* Border lebih gelap saat diklik atau fokus */
+    outline: none; /* Menghilangkan outline default yang biru */
+}
+
+/* Tombol Register */
+.btn-register {
+    background-color: #c5a90f; /* Kuning lebih gelap */
+    border-color: #cca300; /* Border kuning lebih gelap */
+    color: #ffffff; /* Warna teks putih */
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transisi halus saat hover */
+    margin-bottom: 10px;
+}
+
+/* Efek hover untuk tombol Register */
+.btn-register:hover {
+    background-color: #f3cc2e; /* Warna lebih gelap saat di-hover */
+    border-color: #b38d00; /* Border lebih gelap saat di-hover */
+}
+
+/* Efek aktif dan fokus untuk tombol Register */
+.btn-register:active,
+.btn-register:focus {
+    background-color: #cca300; /* Warna lebih gelap saat diklik atau fokus */
+    border-color: #996600; /* Border lebih gelap saat diklik atau fokus */
+    outline: none; /* Menghilangkan outline default yang biru */
+}
+
+/* Pusatkan teks */
+.text-center {
+    margin-top: 10px;
+}

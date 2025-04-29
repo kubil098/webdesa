@@ -1,0 +1,108 @@
+/* mengatur warna backgroud dan padding pada tag body bagian atas agar form tidak menempel diatas */
+body{
+	background: #f2ff00;
+	padding-top: 15vh;	
+}
+
+/* mengatur warna backgroud form */
+form{
+	background: #fff;
+}
+
+/* mengatur border dan padding class form-container */
+.form-container{
+	border-radius: 20px;
+	padding: 40px;
+}
+
+input[type="text"], input[type="password"] {
+    text-align: center;    /* Center the text inside the input fields */
+}
+
+.btn-primary {
+    background-color: #ffdd00; /* Ganti warna ini sesuai keinginan Anda */
+    border-color: #e6b400;     /* Sesuaikan warna border jika diperlukan */
+}
+
+.btn-primary:hover {
+    background-color: #ffe539; /* Warna tombol saat di-hover */
+    border-color: #e6b400;
+}
+
+/* Menempatkan teks di tengah dalam kolom form */
+.form-container {
+    text-align: center;
+}
+
+/* Memastikan label dan input berada di tengah */
+.form-group {
+    text-align: left;
+}
+
+/* Menambahkan jarak antar elemen input dengan label */
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Menambahkan margin bawah pada input */
+.form-group input {
+    margin-bottom: 1rem;
+}
+
+/* Mengatur teks di dalam kolom email agar berada di tengah */
+#InputEmail {
+    text-align: center;
+}
+
+h4.text-center {
+    margin-bottom: 40px; /* Increased space below the Sign-In heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Default margin for form groups */
+}
+
+#username, #InputPassword, #name, #InputEmail, #InputRePassword{
+    border-radius: 25px;         /* Rounded corners for the input fields */
+    padding: 10px;              /* Adjust padding inside the input fields */
+    border: 2px solid #b1b1b1;     /* Optional: Adjust border color and style */
+    width: 100%;                /* Ensure input fields are full width */
+    box-sizing: border-box;     /* Ensure padding doesn't affect width */
+}
+
+/* Menambahkan jarak bawah pada kolom Re-Password */
+.form-group #InputRePassword {
+    margin-bottom: 2.5rem; /* Sesuaikan jarak sesuai kebutuhan */
+}
+
+/* Container untuk tombol Register dan Login */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Memastikan jarak antara tombol sama */
+}
+
+/* Menyusun tombol berdampingan dengan lebar yang sama */
+.button-container .btn {
+    flex: 1; /* Tombol akan memiliki lebar yang sama */
+    margin: 0 0.5rem; /* Jarak antar tombol */
+}
+
+/* Mengatur gaya umum untuk tombol */
+.btn-primary, .btn-secondary {
+    background-color: #e6c000; /* Warna latar belakang tombol */
+    border-color: #df8e0c;     /* Warna border tombol */
+    border-radius: 25px;       /* Border radius untuk sudut rounded */
+    text-align: center;        /* Teks berada di tengah secara horizontal */
+    display: flex;             /* Menggunakan flexbox untuk penyelarasan */
+    align-items: center;       /* Menyelaraskan teks di tengah secara vertikal */
+    justify-content: center;   /* Menyelaraskan teks di tengah secara horizontal */
+    padding: 10px 20px;        /* Padding internal tombol */
+    font-size: 16px;           /* Ukuran font tombol */
+    text-decoration: none;     /* Menghilangkan garis bawah untuk tautan */
+}
+
+.btn-primary:hover {
+    background-color: #e6b400; /* Warna latar belakang tombol saat di-hover */
+    border-color: #e6b400;     /* Warna border tombol saat di-hover */
+}
